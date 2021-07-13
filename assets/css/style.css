@@ -70,6 +70,8 @@ html {
   display: inline-block;
   border: none;
   text-align: center;
+  appearance: none;
+  --webkit-appearance: none;
 }
 
 .btn:hover {
@@ -338,6 +340,15 @@ html {
 .contact-info {
   font-size: 18px;
   line-height: 1.5;
+}
+
+.contact-info a {
+  color: #00e;
+  opacity: 0.8;
+}
+
+.contact-info a:hover {
+  opacity: 1;
 }
 
 /* .contact-info i[class*="ti-"] {
