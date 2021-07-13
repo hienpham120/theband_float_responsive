@@ -84,9 +84,6 @@ html {
   float: right !important;
 }
 
-#main {
-}
-
 #header {
   position: fixed;
   top: 0;
@@ -212,9 +209,6 @@ html {
 
 #slider .text-description {
   font-size: 15px;
-}
-
-#content {
 }
 
 #content .content-section {
